@@ -1,0 +1,10 @@
+{
+  // Cloudflare Worker que sirve la página de links de JEDX (sitio estático)
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "jedx-links",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "single-page-application"
+  }
+}
